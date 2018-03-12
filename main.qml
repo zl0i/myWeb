@@ -28,7 +28,7 @@ ApplicationWindow {
             width: parent.width
             model: 20
             delegate: ItemDelegate {
-                text: "my_Item " + (index + 1)
+                text: "myItem " + (index + 1)
                 width: parent.width
             }
         }
